@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #343a40;
+}
+header p {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.password-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f1f3f5;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.password-display input {
+    border: none;
+    background: none;
+    font-size: 1.25rem;
+    width: 100%;
+    outline: none;
+}
+.password-display .strength {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+}
+.password-length {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.password-length span {
+    font-size: 1.25rem;
+    margin-right: 10px;
+}
+.password-length input[type="range"] {
+    flex-grow: 1;
+}
+.checkboxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.checkboxes label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.25rem;
+}
+.copy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
